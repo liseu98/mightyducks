@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background: #472243;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-image: linear-gradient(to bottom left , #006a65, #472243);
+    color: white;
+}
+
+.shift {
+    margin-top: 25px;
+}
+
+.logo {
+    width: 14rem;
+    height: 14rem;
+    margin-right: 10px;
+}
+
+h1 {
+    font-family: 'Soccer League', sans-serif;
+    margin-top: 50px;
+    font-size: 50px;
+    color: white;
+    text-shadow: 4px 4px 4px black;
+    letter-spacing: 4px
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    color: #fdb827;
+    text-decoration: none;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+    transition: all .5s;
+}
+nav ul li a:hover {
+    color: white;
+}
+
+.main {
+    display: flex;
+    background: #472243;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.principal {
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, #006a65, #472243);
+    border-radius: 20px;
+    font-size: 25px;
+    font-family: 'Soccer League', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.evento {
+    margin-left: 80px;
+}
+
+.titulo {
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Soccer League', sans-serif;
+    text-shadow: 4px 4px 4px black;
+    letter-spacing: 10px
+}
+
+.evento {
+    padding: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.date {
+    text-shadow: 4px 4px 4px black;
+    letter-spacing: 4px
+}
+
+.descripcion {
+    font-family: 'Work Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 800px;
+}
+
+.mail2 {
+    color: white;
+    text-align: center;
+}
+
+.mail {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.parrafofinal {
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.mail2:hover{
+    color: #fdb827;
+}
+
+.reglas {
+    font-family: 'Work Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.dt {
+    font-size: 2rem;
+}
+
+.tabla {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.doble {
+    padding: 50px;
+}
+
+footer{
+    color: white;
+    background-color: #006a65;
+    text-align: center;
+    margin-top: auto;
+}
+
+table {
+    font-family: 'Work Sans', sans-serif;
+}
+
+caption {
+    margin: 15px;
+    font-size: 2.5rem;
+}
+
+.md {
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 10px;
+    text-shadow: 4px 4px 4px black;
+    letter-spacing: 4px;
+}
+
+.circulo {
+    list-style-type: circle;
+    margin-left: 80px;
+}
+
+.letras {
+    list-style-type: lower-latin;
+}
+
+.aside{
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    justify-content: center;
+}
+
+.resp-pr{
+    display: flex;
+    flex-direction: column;
+}
+
+.hockey_img {
+    width: 600px;
+    height: 400px;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
+.hockey_img2 {
+    width: 600px;
+    height: 35vh;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.h2{
+    margin-top: 40px;
+}
+
+form {
+    font-family: 'Poppins', sans-serif;
+}
+
+.vertical label {
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.horizontal label {
+    font-family: 'Work Sans', sans-serif;
+}
+
+sup {
+    margin: 5px;
+}
+
+.vertical {
+    border: none;
+    margin: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin: 10px;
+    
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+    border:none;
+}
+
+.vertical2 p {
+    margin-left: 20px;
+}
+
+.permission h3{
+    margin-left: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.permission p {
+    margin: 20px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    font-family: 'Work Sans', sans-serif;
+    align-items: flex-start;
+    margin: 100px;
+    padding: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.mapas h3{
+    margin-top: 80px;
+    justify-content: center;
+    font-size: 60px;
+    font-family: 'Soccer League';
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+    letter-spacing: 4px
+}
+
+.nombres-colegio {
+    margin: 20px;
+    text-align: center;
+}
+
+.btn-enviar {
+    width:100px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.totales{
+    width: 12rem;
+}
+
+td {
+    text-align: center;
+}
+
+tbody {
+    padding: 100px;
+}
